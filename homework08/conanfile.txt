@@ -1,0 +1,15 @@
+# ProjectManager/conanfile.txt
+[requires]
+fmt/10.2.1
+spdlog/[*]
+nlohmann_json/[*]
+cli11/[*]
+gtest/[*] 
+sqlite3/[*]
+boost/[*]
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+ 

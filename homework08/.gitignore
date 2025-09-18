@@ -1,0 +1,26 @@
+# CMake build folders
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cmake
+
+# Visual Studio / Windows
+*.sln
+*.vcxproj*
+*.user
+*.opensdf
+*.sdf
+*.ipch
+*.log
+*.obj
+*.pdb
+*.exe
+
+# Mac / Linux
+*.o
+*.so
+*.a
+*.out
+
+# Conan local cache & generators
+/conan_build/

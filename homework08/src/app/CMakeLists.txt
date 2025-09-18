@@ -1,0 +1,16 @@
+add_executable(projectmanager
+  src/cli_handler.cpp
+  src/main.cpp
+)
+target_include_directories(projectmanager
+  PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+target_link_libraries(projectmanager
+  PRIVATE
+    projectmanager::core
+    CLI11::CLI11
+    spdlog::spdlog
+    fmt::fmt
+)
+pm_apply_warnings(projectmanager)
