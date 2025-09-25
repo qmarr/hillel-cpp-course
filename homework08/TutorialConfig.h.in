@@ -1,0 +1,2 @@
+    #define CMAKETASTING_VERSION_MAJOR @cmaketasting_VERSION_MAJOR@
+    #define CMAKETASTING_VERSION_MINOR @cmaketasting_VERSION_MINOR@
