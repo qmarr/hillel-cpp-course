@@ -10,7 +10,12 @@ add_executable(cmaketasting
     main.cpp
 )
 
-target_include_directories(cmaketasting PUBLIC "${PROJECT_BINARY_DIR}")
+target_include_directories(cmaketasting PUBLIC 
+    "${PROJECT_BINARY_DIR}"
+    "${PROJECT_SOURCE_DIR}/src/app"
+    
+)
 
+add_subdirectory(src/app)
 
-
+target_link_libraries(cmaketasting PUBLIC app)
