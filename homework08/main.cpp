@@ -1,13 +1,13 @@
 #include <iostream>
-//#include "src/core/include/core/task.h"
+#include "core/task.h"
 #include "TutorialConfig.h"
-#include "app.h"
+#include "app/app.h"
 
 int main(int argc, char* argv[]) {
-  //Task task("First task");
+  Task task("First task");
   std::cout << "Here's my main!\n";
 
-  //std::cout << "ID: " <<  task.getId() << std::endl;     src/core/src/task.cpp    
+  std::cout << "ID: " <<  task.getId() << std::endl; 
 
 
   auto task_name("blank name");
