@@ -1,0 +1,8 @@
+[requires]
+nlohmann_json/[*]
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+ 

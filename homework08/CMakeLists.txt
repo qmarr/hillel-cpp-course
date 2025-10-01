@@ -29,6 +29,6 @@ target_compile_options(compiler_flags INTERFACE
 
 target_link_libraries(cmaketasting PUBLIC app project-manager compiler_flags)
 
-add_subdirectory(src/app)
 
+add_subdirectory(src/app)
 add_subdirectory(src/core)
